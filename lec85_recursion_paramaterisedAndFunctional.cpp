@@ -2,7 +2,7 @@
 //Parameterised recursion
 #include <iostream>
 using namespace std;
-int sumParameterised(int i,int sum){
+void sumParameterised(int i,int sum){
   if(i<i){;
     cout<<sumParameterised;
     return 0;
