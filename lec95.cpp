@@ -17,5 +17,9 @@ struct DSU{
   bool merge(int u, int v){
     int parent_u=find_parent(u);
     int parent_v=find_parent(v);
+    if(parent_u==parent_v) return false;
+    if(size[parent_u]<size[parent_v]){
+      
+    }
   }
 };
