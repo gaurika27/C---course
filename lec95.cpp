@@ -14,4 +14,8 @@ struct DSU{
     if(par[node]==node) return node;
     else par[node]=find_parent(par[node]);
   }
+  bool merge(int u, int v){
+    int parent_u=find_parent(u);
+    int parent_v=find_parent(v);
+  }
 };
