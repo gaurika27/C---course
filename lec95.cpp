@@ -19,7 +19,9 @@ struct DSU{
     int parent_v=find_parent(v);
     if(parent_u==parent_v) return false;
     if(size[parent_u]<size[parent_v]){
-      
-    }
+      swap(parent_u, parent_v);
+      par[parent_v]=parent_u;
+      size[parent_u]+=size[parent_u];
+      }
   }
 };
