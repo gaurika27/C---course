@@ -4,3 +4,22 @@ we want the project to have 0bjects and it works with objects so that the progra
 why we need to be more near the real world?: so that its readibility, manageability and extensibility increases.
 therefore, oops is the prgram in which the program revolves around the object.
 */
+//class: user defined data type
+//object: instance of class
+/*
+class can be formed as follows:
+
+program:
+
+class Hero{
+   //properties
+   char name[100];
+   int health;
+   int level;
+};
+int main(){
+  //object
+  Hero h1;
+
+}
+*/
