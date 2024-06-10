@@ -18,8 +18,26 @@ class Hero{
    int level;
 };
 int main(){
-  //object
+  //creation of objects
   Hero h1;
 
 }
+*/
+
+
+/*
+//Sizeof
+now what if we write the following in int main():
+cout<<"size: "<<sizeof(h1)<<endl;
+
+we get the output in which the size of each datatype mentioned in the class Hero is added up,
+for ex: the size of all datattypes like char, 2*int is added here.
+*/
+
+/*
+// sizeof in the case of empty class:
+output:
+1
+explanantion:
+in case of empty class, object gets the memory of 1 byte just for the sake of identififcation.
 */
