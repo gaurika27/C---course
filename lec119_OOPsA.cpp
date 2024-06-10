@@ -1,0 +1,1 @@
+//Object is an entity that has two things associated with it, its state/property and behaviour.
