@@ -20,6 +20,38 @@ class Hero{
 int main(){
   //creation of objects
   Hero h1;
+}
+*/
+
+/*
+//Getters and Setters
+
+class Hero{
+  private
+  int health;
+  
+  public 
+  char level;
+  
+  void print(){
+     cout<<level<<endl;
+  }
+  
+  int getHealth(){
+   return health;
+  }
+
+  char getLevel(){
+   return level;
+  }
+
+  void setHealth(int h){
+   health=h;
+  }
+
+  void setLevel(char ch){
+   level=ch;
+  }
 
 }
 */
