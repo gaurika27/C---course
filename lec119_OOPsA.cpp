@@ -41,3 +41,29 @@ output:
 explanantion:
 in case of empty class, object gets the memory of 1 byte just for the sake of identififcation.
 */
+//accessing properties/data members: using dot operators
+/*
+
+class Hero{
+   //properties
+   char name[100];
+   int health;
+   int level;
+};
+
+int main(){
+  Hero ramesh;
+  cout<<"health is: "<<ramesh.health<<endl;
+  cout<<"level is:" is<<ramesh.level<<endl;
+  }
+
+output: error 
+(coz health and level are private members)
+*/
+
+/*
+//Access Modiifers Type:
+1)public
+2)private(by default)
+3)protected
+*/
