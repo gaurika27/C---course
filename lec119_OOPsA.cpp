@@ -66,4 +66,16 @@ output: error
 1)public
 2)private(by default)
 3)protected
+
+1)public(can be accessed from anywhere in the code; from both inside and outside the class)
+
+class Hero{
+ public:
+ int health;
+ int level;
+ };
+
+2)private(can be accessed ONLY from inside the class)
+
+3)protected()
 */
